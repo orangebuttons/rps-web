@@ -1434,13 +1434,13 @@ function clickAirScissorsButton(){
 function clickDiamondButton(){
     number = Math.floor(Math.random()*computerAttacks35.length)+0;
     if (computerAttacks35[number] === "air scissors"){
-            storedComputerPoints += 10;
-            storedPlayerPoints +-25;
+            storedComputerPoints +=25;
+            storedPlayerPoints +=10;
             document.getElementById("results").innerHTML = computerWins;
             
     } else {
-        storedComputerPoints+=25;
-        storedPlayerPoints +=10;
+        storedComputerPoints+=10;
+        storedPlayerPoints +=25;
         document.getElementById("results").innerHTML = playerWins;
     }
 
