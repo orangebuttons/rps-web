@@ -1,0 +1,47 @@
+html {
+    background-size: 100%;
+    background-image: url(SMPTE_Color_Bars.svg);
+}
+#indexRootDiv {
+    width: 60%;
+    margin: 5% auto;
+    background-color: black;
+    border: thick solid #1B03A3;
+    padding: 20px;
+}
+.designedButton{
+    background-color: black;
+    border-radius: 9px;
+    border-color: #569cd6;
+    border: 1.5px solid;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FF69B4;
+    font-weight: bold;
+    margin: auto;
+    padding: 7px 12px;
+}
+.playerOneStat {
+    width: 90%;
+    margin: 0 auto;
+}
+#playerMoves {
+    justify-content: center;
+}
+#baseItemsTable{
+    width: 100%;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFF33;
+    text-align: center;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #39FF14;
+    text-align: center;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color:#FFFF33;
+    text-align: center;
+}
