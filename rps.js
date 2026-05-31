@@ -47,17 +47,17 @@ function clickRockButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + roundTie;
         } else if (computerAttacks5[number] === "scissors"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + playerWins;
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints +=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >= 5 && storedComputerLevel <= 10 ){
@@ -66,17 +66,17 @@ function clickRockButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + roundTie;
         } else if (computerAttacks10[number] === "scissors") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints+=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >= 10 && storedComputerLevel <= 15){
@@ -85,17 +85,17 @@ function clickRockButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + roundTie;
         } else if (computerAttacks15[number] === "scissors") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins;
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints+=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >=15 && storedComputerLevel <=20){
@@ -104,23 +104,23 @@ function clickRockButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + roundTie;
         } else if (computerAttacks20[number] === "paper") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } else if (computerAttacks20[number] === "wadded paper"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } 
         else {
             storedComputerPoints +=25;
             storedPlayerPoints+=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >=20 && storedComputerLevel<= 25){
@@ -129,27 +129,27 @@ function clickRockButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + roundTie;
         } else if (computerAttacks25[number] === "paper") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-           document.getElementById("results").innerHTML = playerWins; 
+           document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins; 
         } else if (computerAttacks25[number] === "wadded paper"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;
         } else if(computerAttacks25[number] === "folded paper"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;            
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;            
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints+=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + computerWins;
         }       
     }
     else if (storedComputerLevel >= 25 && storedComputerLevel <= 30) {
@@ -158,56 +158,56 @@ function clickRockButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + roundTie;
         } else if (computerAttacks30[number] === "paper") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else if (computerAttacks30[number] === "wadded paper"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else if(computerAttacks30[number] === "folded paper"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints+=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + computerWins;
         }
     }
     else {
         number = Math.floor(Math.random()*computerAttacks35.length)+0;
-        if (computerAttacks30[number] === "rock"){
+        if (computerAttacks35[number] === "rock"){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
-        } else if (computerAttacks30[number] === "paper") {
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + roundTie;
+        } else if (computerAttacks35[number] === "paper") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
-        } else if (computerAttacks30[number] === "wadded paper"){
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
+        } else if (computerAttacks35[number] === "wadded paper"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
-        } else if(computerAttacks30[number] === "folded paper"){
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
+        } else if(computerAttacks35[number] === "folded paper"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;            
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;            
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints+=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " +computerWins;
         }
     }
     checkLevel();
@@ -227,7 +227,7 @@ function clickJaggedRockButton(){
         storedComputerPoints +=10;
         storedPlayerPoints +=25;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + playerWins;
     }
     else if (storedComputerLevel >= 5 && storedComputerLevel <= 10 ){
         number = Math.floor(Math.random()*computerAttacks10.length)+0;
@@ -235,22 +235,22 @@ function clickJaggedRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
         } else if (computerAttacks10[number] === "scissors"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
         } else if (computerAttacks10[number] === "paper") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
         } else {
             storedComputerPoints +=5;
             storedPlayerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + roundTie;
         } 
     }
     else if (storedComputerLevel >= 10 && storedComputerLevel <= 15){
@@ -259,28 +259,28 @@ function clickJaggedRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins;
 
         } else if (computerAttacks15[number] === "scissors"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins;
         } else if (computerAttacks15[number] === "paper") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins;
         } else if (computerAttacks15[number] === "jagged rock"){
             storedComputerPoints +=5;
             storedPlayerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + roundTie;
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints +=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >=15 && storedComputerLevel <=20){
@@ -289,27 +289,27 @@ function clickJaggedRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } else if (computerAttacks20[number] === "scissors"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } else if (computerAttacks20[number] === "paper") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } else if (computerAttacks20[number] === "jagged rock"){
             storedComputerPoints +=5;
             storedPlayerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + roundTie;
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints +=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + computerWins;
         }
         
     }
@@ -319,27 +319,27 @@ function clickJaggedRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;
         } else if (computerAttacks25[number] === "scissors"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;
         } else if (computerAttacks25[number] === "paper") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;
         } else if (computerAttacks25[number] === "jagged rock"){
             storedComputerPoints +=5;
             storedPlayerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + roundTie;
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints +=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + computerWins;
         }       
     }
     else if (storedComputerLevel >= 25 && storedComputerLevel <= 30) {
@@ -348,33 +348,33 @@ function clickJaggedRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else if (computerAttacks30[number] === "scissors"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else if (computerAttacks30[number] === "paper") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else if (computerAttacks30[number] === "titanium scissors") {
                 storedComputerPoints +=10;
                 storedPlayerPoints +=25;
                 console.log(playerWins);
-                document.getElementById("results").innerHTML = playerWins;            
+                document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;            
         }
          else if (computerAttacks30[number] === "jagged rock"){
             storedComputerPoints +=5;
             storedPlayerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + roundTie;
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints +=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + computerWins;
         } 
         
     } 
@@ -384,27 +384,27 @@ function clickJaggedRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
         } else if (computerAttacks35[number] === "scissors"){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
         } else if (computerAttacks35[number] === "paper") {
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
         }  else if (computerAttacks35[number] === "jagged rock"){
             storedComputerPoints +=5;
             storedPlayerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + roundTie;
         } else {
             storedComputerPoints +=25;
             storedPlayerPoints +=10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + computerWins;
         } 
         }
     checkLevel();
@@ -423,17 +423,17 @@ function clickWetRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + playerWins;
         } else if (computerAttacks5[number] === "paper"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + playerWins;
         } else if (computerAttacks5[number] === "scissors"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + playerWins;
         }
 
     }
@@ -443,22 +443,22 @@ function clickWetRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
         } else if (computerAttacks10[number] === "paper"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
         } else if (computerAttacks10[number] === "scissors"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
         } else if (computerAttacks10[number] === "jagged rock"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins); 
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
         }
     }
     else if (storedComputerLevel >= 10 && storedComputerLevel <= 15){
@@ -467,27 +467,27 @@ function clickWetRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins;
         } else if (computerAttacks15[number] === "paper"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins;
         } else if (computerAttacks15[number] === "scissors"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins;
         } else if (computerAttacks15[number] === "jagged rock"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins; 
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins; 
         } else {
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + roundTie;
         }
     }
     else if (storedComputerLevel >=15 && storedComputerLevel <=20){
@@ -496,33 +496,33 @@ function clickWetRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } else if (computerAttacks20[number] === "paper"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } else if (computerAttacks20[number] === "scissors"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } else if (computerAttacks20[number] === "jagged rock"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins); 
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } else if(computerAttacks20[number] === "wadded paper"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } 
         else {
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + roundTie;
         }
     }
     else if (storedComputerLevel >=20 && storedComputerLevel<= 25){
@@ -531,33 +531,33 @@ function clickWetRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;
         } else if (computerAttacks25[number] === "paper"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;
         } else if (computerAttacks25[number] === "scissors"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;
         } else if (computerAttacks25[number] === "jagged rock"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins; 
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins; 
         } else if(computerAttacks25[number] === "wadded paper" || "folded paper"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;
         } 
         else {
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + roundTie;
         }      
     }
     else if (storedComputerLevel >= 25 && storedComputerLevel <= 30) {
@@ -566,33 +566,33 @@ function clickWetRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else if (computerAttacks30[number] === "paper"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else if (computerAttacks30[number] === "scissors"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else if (computerAttacks30[number] === "jagged rock"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else if(computerAttacks30[number] === "wadded paper" || "folded paper" || "titanium scissors"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } 
         else {
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + roundTie;
         } 
     }
     else {
@@ -601,38 +601,38 @@ function clickWetRockButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
         } else if (computerAttacks35[number] === "paper"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
         } else if (computerAttacks35[number] === "scissors"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
         } else if (computerAttacks35[number] === "jagged rock"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins; 
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins; 
         } else if(computerAttacks35[number] === "wadded paper" || "folded paper" || "titanium scissors"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
         } 
         else if (computerAttacks35[number] === "wet rock") {
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + roundTie;
         } else {
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML ="Computer chose " + computerAttacks35[number] + "! " + computerWins;
         }
     }   
 
@@ -655,17 +655,17 @@ function clickPaperButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + roundTie;
         } else if (computerAttacks5[number] === "scissors"){
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + computerWins;
         } else {
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + playerWins;
         }
     }
     else if (storedComputerLevel >= 5 && storedComputerLevel <= 10 ){
@@ -674,17 +674,17 @@ function clickPaperButton(){
         storedComputerPoints += 5;
         storedPlayerPoints += 5;
         console.log(roundTie);
-        document.getElementById("results").innerHTML = roundTie;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + roundTie;
     } else if (computerAttacks10[number] === "scissors" || "jagged rock"){
         storedComputerPoints += 25;
         storedPlayerPoints += 10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + computerWins;
     } else {
         storedComputerPoints += 10;
         storedPlayerPoints += 25;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
     }
     }
     else if (storedComputerLevel >= 10 && storedComputerLevel <= 15){
@@ -693,17 +693,17 @@ function clickPaperButton(){
         storedComputerPoints += 5;
         storedPlayerPoints += 5;
         console.log(roundTie);
-        document.getElementById("results").innerHTML = roundTie;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + roundTie;
     } else if (computerAttacks15[number] === "scissors" || "jagged rock"){
         storedComputerPoints += 25;
         storedPlayerPoints += 10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + computerWins;
     } else {
         storedComputerPoints += 10;
         storedPlayerPoints += 25;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins;
     }
     }
     else if (storedComputerLevel >=15 && storedComputerLevel <=20){
@@ -712,17 +712,17 @@ function clickPaperButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + roundTie;
         } else if (computerAttacks20[number] === "scissors" || "jagged rock"){
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + computerWins;
         } else {
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         }
     }
     else if (storedComputerLevel >=20 && storedComputerLevel<= 25){
@@ -731,17 +731,17 @@ function clickPaperButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + roundTie;
         } else if (computerAttacks25[number] === "scissors" || "jagged rock" || "folded paper"){
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + computerWins;
         } else {
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " +playerWins;
         }
     }
     else if (storedComputerLevel >= 25 && storedComputerLevel <= 30) {
@@ -750,17 +750,17 @@ function clickPaperButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + roundTie;
         } else if (computerAttacks30[number] === "scissors" || "jagged rock" || "folded paper" || "titanium scissors"){
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + computerWins;
         } else {
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         }
     }
     else {
@@ -769,17 +769,17 @@ function clickPaperButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + roundTie;
         } else if (computerAttacks35[number] === "scissors" || "jagged rock" || "folded paper" || "titanium scissors"){
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + computerWins;
         } else {
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
         }
     }
     checkLevel();
@@ -801,12 +801,12 @@ function clickWadPaperButton(){
             storedPlayerPoints += 25;
             storedComputerPoints += 10;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + playerWins;
         } else {
             storedPlayerPoints += 10;
             storedComputerPoints += 25;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >= 5 && storedComputerLevel <= 10 ){
@@ -815,12 +815,12 @@ function clickWadPaperButton(){
         storedPlayerPoints += 25;
         storedComputerPoints += 10;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
     } else {
         storedPlayerPoints += 10;
         storedComputerPoints += 25;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + computerWins;
     }
     }
     else if (storedComputerLevel >= 10 && storedComputerLevel <= 15){
@@ -829,12 +829,12 @@ function clickWadPaperButton(){
         storedPlayerPoints += 25;
         storedComputerPoints += 10;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins;
     } else {
         storedPlayerPoints += 10;
         storedComputerPoints += 25;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + computerWins;
     }
     }
     else if (storedComputerLevel >=15 && storedComputerLevel <=20){
@@ -843,18 +843,18 @@ function clickWadPaperButton(){
         storedPlayerPoints += 5;
         storedComputerPoints +=5;
         console.log(roundTie);
-        document.getElementById("results").innerHTML = roundTie;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + roundTie;
        }
         else if (computerAttacks20[number] === "scissors" || "jagged rock"){
             storedPlayerPoints += 25;
             storedComputerPoints += 10;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } else {
             storedPlayerPoints += 10;
             storedComputerPoints += 25;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >=20 && storedComputerLevel<= 25){
@@ -863,18 +863,18 @@ function clickWadPaperButton(){
             storedPlayerPoints += 5;
             storedComputerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + roundTie;
            }
             else if (computerAttacks25[number] === "scissors" || "jagged rock" || "folded paper"){
                 storedPlayerPoints += 25;
                 storedComputerPoints += 10;
                 console.log(playerWins);
-                document.getElementById("results").innerHTML = playerWins;
+                document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;
             } else {
                 storedPlayerPoints += 10;
                 storedComputerPoints += 25;
                 console.log(computerWins);
-                document.getElementById("results").innerHTML = computerWins;
+                document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + computerWins;
             }     
     }
     else if (storedComputerLevel >= 25 && storedComputerLevel <= 30) {
@@ -883,18 +883,18 @@ function clickWadPaperButton(){
             storedPlayerPoints += 5;
             storedComputerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + roundTie;
            }
             else if (computerAttacks30[number] === "scissors" || "jagged rock" || "folded paper"){
                 storedPlayerPoints += 25;
                 storedComputerPoints += 10;
                 console.log(playerWins);
-                document.getElementById("results").innerHTML = playerWins;
+                document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
             } else {
                 storedPlayerPoints += 10;
                 storedComputerPoints += 25;
                 console.log(computerWins);
-                document.getElementById("results").innerHTML = computerWins;
+                document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + computerWins;
             } 
     }
     else {
@@ -903,18 +903,18 @@ function clickWadPaperButton(){
             storedPlayerPoints += 5;
             storedComputerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML ="Computer chose " + computerAttacks30[number] + "! " + roundTie;
            }
             else if (computerAttacks30[number] === "scissors" || "jagged rock" || "folded paper" || "titanium scissors"){
                 storedPlayerPoints += 25;
                 storedComputerPoints += 10;
                 console.log(playerWins);
-                document.getElementById("results").innerHTML = playerWins;
+                document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " +playerWins;
             } else {
                 storedPlayerPoints += 10;
                 storedComputerPoints += 25;
                 console.log(computerWins);
-                document.getElementById("results").innerHTML = computerWins;
+                document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " +computerWins;
             } 
     }
     checkLevel();
@@ -935,12 +935,12 @@ function clickFoldedPaperButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);  
-            document.getElementById("results").innerHTML = playerWins;      
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + playerWins;      
         } else {
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks5[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >= 5 && storedComputerLevel <= 10 ){
@@ -949,12 +949,12 @@ function clickFoldedPaperButton(){
         storedComputerPoints += 10;
         storedPlayerPoints += 25;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;       
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;       
     } else {
         storedComputerPoints += 25;
         storedPlayerPoints += 10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " +  computerWins;
     }
     }
     else if (storedComputerLevel >= 10 && storedComputerLevel <= 15){
@@ -963,12 +963,12 @@ function clickFoldedPaperButton(){
         storedComputerPoints += 10;
         storedPlayerPoints += 25;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;        
+        document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks15[number] + "! " + playerWins;        
     } else {
         storedComputerPoints += 25;
         storedPlayerPoints += 10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks15[number] + "! " + computerWins;
     }
     }
     else if (storedComputerLevel >=15 && storedComputerLevel <=20){
@@ -977,12 +977,12 @@ function clickFoldedPaperButton(){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;        
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;        
         } else {
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >=20 && storedComputerLevel<= 25){
@@ -991,18 +991,18 @@ function clickFoldedPaperButton(){
             storedComputerPoints +=5;
             storedPlayerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " +  roundTie;
         }
         else if (computerAttacks25[number] === "paper" || "scissors" || "jagged rock" || "wet rock"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;        
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;        
         } else {
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >= 25 && storedComputerLevel <= 30) {
@@ -1011,18 +1011,18 @@ function clickFoldedPaperButton(){
             storedComputerPoints +=5;
             storedPlayerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + roundTie;
         }
         else if (computerAttacks30[number] === "paper" || "scissors" || "jagged rock" || "wet rock"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;        
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;        
         } else {    
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + computerWins;
         }
     }
     else {
@@ -1031,18 +1031,18 @@ function clickFoldedPaperButton(){
             storedComputerPoints +=5;
             storedPlayerPoints +=5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " +  roundTie;
         }
         else if (computerAttacks35[number] === "paper" || "scissors" || "jagged rock" || "wet rock" || "air scissors"){
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;        
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " +  playerWins;        
         } else {    
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + computerWins;
         }
     }
     checkLevel();
@@ -1063,17 +1063,17 @@ function clickScissorsButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks5[number] + "! " + roundTie;
         } else if (computerAttacks5[number] === "paper") {
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " +  playerWins;
         } else {
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks5[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >= 5 && storedComputerLevel <= 10 ){
@@ -1082,17 +1082,17 @@ function clickScissorsButton(){
         storedComputerPoints += 5;
         storedPlayerPoints += 5;
         console.log(roundTie);
-        document.getElementById("results").innerHTML = roundTie;
+        document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks10[number] + "! " + roundTie;
     } else if (computerAttacks10[number] === "paper") {
         storedComputerPoints += 10;
         storedPlayerPoints += 25;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks10[number] + "! " + playerWins;
     } else {
         storedComputerPoints += 25;
         storedPlayerPoints += 10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks10[number] + "! " + computerWins;
     }
     }
     else if (storedComputerLevel >= 10 && storedComputerLevel <= 15){
@@ -1101,17 +1101,17 @@ function clickScissorsButton(){
         storedComputerPoints += 5;
         storedPlayerPoints += 5;
         console.log(roundTie);
-        document.getElementById("results").innerHTML = roundTie;
+        document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks15[number] + "! " + roundTie;
     } else if (computerAttacks15[number] === "paper") {
         storedComputerPoints += 10;
         storedPlayerPoints += 25;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks15[number] + "! " + playerWins;
     } else {
         storedComputerPoints += 25;
         storedPlayerPoints += 10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + computerWins;
     }
     }
     else if (storedComputerLevel >=15 && storedComputerLevel <=20){
@@ -1120,17 +1120,17 @@ function clickScissorsButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks20[number] + "! " + roundTie;
         } else if (computerAttacks20[number] === "paper") {
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " +  playerWins;
         } else {
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " +  computerWins;
         }
     }
     else if (storedComputerLevel >=20 && storedComputerLevel<= 25){
@@ -1139,17 +1139,17 @@ function clickScissorsButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks25[number] + "! " + roundTie;
         } else if (computerAttacks25[number] === "paper") {
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " +  playerWins;
         } else {
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks25[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >= 25 && storedComputerLevel <= 30) {
@@ -1158,17 +1158,17 @@ function clickScissorsButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks30[number] + "! " + roundTie;
         } else if (computerAttacks30[number] === "paper") {
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks30[number] + "! " + playerWins;
         } else {
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " +  computerWins;
         }
     }
     else {
@@ -1177,17 +1177,17 @@ function clickScissorsButton(){
             storedComputerPoints += 5;
             storedPlayerPoints += 5;
             console.log(roundTie);
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks35[number] + "! " + roundTie;
         } else if (computerAttacks35[number] === "paper") {
             storedComputerPoints += 10;
             storedPlayerPoints += 25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks35[number] + "! " + playerWins;
         } else {
             storedComputerPoints += 25;
             storedPlayerPoints += 10;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks35[number] + "! " + computerWins;
         }
     }
     checkLevel();
@@ -1209,7 +1209,7 @@ function clickTitaniumScissorsButton(){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks5[number] + "! " + playerWins;
         }
 
     }
@@ -1219,12 +1219,12 @@ function clickTitaniumScissorsButton(){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks10[number] + "! " + playerWins;
     } else {
         storedComputerLevel +=25;
         storedPlayerPoints +=10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " +  computerWins;
     }
     }
     else if (storedComputerLevel >= 10 && storedComputerLevel <= 15){
@@ -1233,12 +1233,12 @@ function clickTitaniumScissorsButton(){
         storedComputerPoints +=10;
         storedPlayerPoints +=25;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " +  playerWins;
 } else {
     storedComputerLevel +=25;
     storedPlayerPoints +=10;
     console.log(computerWins);
-    document.getElementById("results").innerHTML = computerWins;
+    document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks15[number] + "! " +  computerWins;
 }
     }
     else if (storedComputerLevel >=15 && storedComputerLevel <=20){
@@ -1247,13 +1247,13 @@ function clickTitaniumScissorsButton(){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
 
     } else {
         storedComputerLevel +=25;
         storedPlayerPoints +=10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks20[number] + "! " + computerWins;
     }
     }
     else if (storedComputerLevel >=20 && storedComputerLevel<= 25){
@@ -1262,12 +1262,12 @@ function clickTitaniumScissorsButton(){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + playerWins;
     } else {
         storedComputerLevel +=25;
         storedPlayerPoints +=10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " + computerWins;
     }
     }
     else if (storedComputerLevel >= 25 && storedComputerLevel <= 30) {
@@ -1276,18 +1276,18 @@ function clickTitaniumScissorsButton(){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
     } else if (computerAttacks30[number] === "titanium scissors") {
         storedComputerPoints += 5;
         storedPlayerPoints += 5;
         console.log(roundTie);
-        document.getElementById("results").innerHTML = roundTie;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + roundTie;
     }
     else {
         storedComputerLevel +=25;
         storedPlayerPoints +=10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML ="Computer chose " + computerAttacks30[number] + "! " + computerWins;
     }
     }
     else {
@@ -1296,18 +1296,18 @@ function clickTitaniumScissorsButton(){
             storedComputerPoints +=10;
             storedPlayerPoints +=25;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
     } else if (computerAttacks30[number] === "titanium scissors") {
         storedComputerPoints += 5;
         storedPlayerPoints += 5;
         console.log(roundTie);
-        document.getElementById("results").innerHTML = roundTie;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + roundTie;
     }
     else {
         storedComputerLevel +=25;
         storedPlayerPoints +=10;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + computerWins;
     }
     }
     checkLevel();
@@ -1328,12 +1328,12 @@ function clickAirScissorsButton(){
             storedPlayerPoints += 25;
             storedComputerPoints +=10;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + playerWins;
         } else {
             storedPlayerPoints += 10;
             storedComputerPoints+= 25;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks5[number] + "! " + computerWins;
         }
     }
     else if (storedComputerLevel >= 5 && storedComputerLevel <= 10 ){
@@ -1342,12 +1342,12 @@ function clickAirScissorsButton(){
         storedPlayerPoints += 25;
         storedComputerPoints +=10;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + playerWins;
     } else {
         storedPlayerPoints += 10;
         storedComputerPoints+= 25;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks10[number] + "! " + computerWins;
     }
     }
     else if (storedComputerLevel >= 10 && storedComputerLevel <= 15){
@@ -1356,12 +1356,12 @@ function clickAirScissorsButton(){
         storedPlayerPoints += 25;
         storedComputerPoints +=10;
         console.log(playerWins);
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + playerWins;
     } else {
         storedPlayerPoints += 10;
         storedComputerPoints+= 25;
         console.log(computerWins);
-        document.getElementById("results").innerHTML = computerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks15[number] + "! " + computerWins;
     }
     }
     else if (storedComputerLevel >=15 && storedComputerLevel <=20){
@@ -1370,12 +1370,12 @@ function clickAirScissorsButton(){
             storedPlayerPoints += 25;
             storedComputerPoints +=10;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " + playerWins;
         } else {
             storedPlayerPoints += 10;
             storedComputerPoints+= 25;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks20[number] + "! " +   computerWins;
         }
     }
     else if (storedComputerLevel >=20 && storedComputerLevel<= 25){
@@ -1384,12 +1384,12 @@ function clickAirScissorsButton(){
             storedPlayerPoints += 25;
             computerPlayerPoints +=10;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks25[number] + "! " +   playerWins;
         } else {
             storedPlayerPoints += 10;
             storedComputerPoints+= 25;
-            console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            console.log(computerWins); 
+            document.getElementById("results").innerHTML ="Computer chose " + computerAttacks25[number] + "! " +   computerWins;
         }     
     }
     else if (storedComputerLevel >= 25 && storedComputerLevel <= 30) {
@@ -1398,13 +1398,13 @@ function clickAirScissorsButton(){
             storedPlayerPoints += 25;
             storedComputerPoints +=10;
             console.log(playerWins);
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " + playerWins;
             
         } else {
             storedPlayerPoints += 10;
             storedComputerPoints+= 25;
             console.log(computerWins);
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks30[number] + "! " +  computerWins;
         } 
     }
     else {
@@ -1412,16 +1412,16 @@ function clickAirScissorsButton(){
         if (computerAttacks35[number] === "rock" || "scissors" || "jagged rock" || "wet rock" || "titanium scissors"){
             storedPlayerPoints += 25;
             storedComputerPoints +=10;
-            document.getElementById("results").innerHTML = playerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
         } else if (computerAttacks35[number] === "air scissors"){
             storedPlayerPoints += 5;
             storedComputerPoints +=5;
-            document.getElementById("results").innerHTML = roundTie;
+            document.getElementById("results").innerHTML =  "Computer chose " + computerAttacks35[number] + "! " + roundTie;
         } 
         else {
             storedPlayerPoints += 10;
             storedComputerPoints+= 25;
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + computerWins;
         }
     }
     checkLevel();
@@ -1436,15 +1436,15 @@ function clickDiamondButton(){
     if (computerAttacks35[number] === "air scissors"){
             storedComputerPoints +=25;
             storedPlayerPoints +=10;
-            document.getElementById("results").innerHTML = computerWins;
+            document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + computerWins;
             
     } else {
         storedComputerPoints+=10;
         storedPlayerPoints +=25;
-        document.getElementById("results").innerHTML = playerWins;
+        document.getElementById("results").innerHTML = "Computer chose " + computerAttacks35[number] + "! " + playerWins;
     }
 
-        checkLevel();
+    checkLevel();
     document.getElementById("computerPoints").innerHTML = storedComputerPoints;
     document.getElementById("playerPoints").innerHTML = storedPlayerPoints;
     document.getElementById("computerLevel").innerHTML = storedComputerLevel;
