@@ -33,7 +33,7 @@ function checkLevel(){
     }
     storedComputerLevel = Math.floor(storedComputerPoints / 100) + 1;
     if (storedComputerLevel > 1000 ){
-        alert("Retry")
+        alert("Would you like to retry?")
     }
 }
 
